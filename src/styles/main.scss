@@ -1,9 +1,16 @@
+// Importações de bibliotecas externas
+@use 'variables';// Importe as variáveis primeiro
+
+// Mixins, funções, placeholders, etc.
+// Se tiver algum mixin geral, defina aqui
+
+// Importações de estilos próprios
 @use 'hero';
 @use 'components/infos_bar';
 @use 'components/buttons';
 @use 'event';
-@use 'variables';
 
+// Variáveis globais
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +20,7 @@
     list-style: none;
 }
 
+// Layout
 .container {
     max-width: 960px;
     width: 100%;
@@ -26,3 +34,5 @@
         max-width: 90%;
     }
 }
+
+// Outras regras globais, como estilos de link, etc.
