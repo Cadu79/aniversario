@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
@@ -38,8 +39,8 @@
         </div>
     </header>
 
-    <section class="event">
-        <div class="container">
+    <section class="event event--baloes">
+        <div class="container" data-aos="fade-right">
             <div class="event__details">
                 <h2 class="event__details__title">Balões</h2>
                 <p class="event__details__description">
@@ -49,8 +50,44 @@
             <img class="event__image" src="./images/baloes.jpg" alt="Balões">
         </div>
     </section>
-    
 
+    <section class="event event--aniversario event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Aniversário</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam doloremque, labore sunt necessitatibus architecto, repellat iste ipsa voluptas molestias culpa eius ratione neque assumenda tempora hic voluptate. Culpa, cupiditate voluptates.
+                </p>
+            </div>
+            <img class="event__image" src="./images/aniversario.jpg" alt="Aniversário">
+        </div>
+    </section>
+    
+    <section class="event event--bolo">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Bolo</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam doloremque, labore sunt necessitatibus architecto, repellat iste ipsa voluptas molestias culpa eius ratione neque assumenda tempora hic voluptate. Culpa, cupiditate voluptates.
+                </p>
+            </div>
+            <img class="event__image" src="./images/Bolo.jpg" alt="Bolo">
+        </div>
+    </section>
+
+    <section class="event event--champagne event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Champagne</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam doloremque, labore sunt necessitatibus architecto, repellat iste ipsa voluptas molestias culpa eius ratione neque assumenda tempora hic voluptate. Culpa, cupiditate voluptates.
+                </p>
+            </div>
+            <img class="event__image" src="./images/champagne.jpg" alt="Champagne">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
